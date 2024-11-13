@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/index.css" />
+    <script src="./../../controller/index.js"></script>
+    <title>Loja de Produtos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Loja de Produtos</h1>
+        <input type="text" id="product" placeholder="Nome do Produto" />
+        <input type="number" id="quantity" placeholder="Quantidade" />
+        <input type="number" id="price" placeholder="Preço" />
+        <button onclick="addProduct()">Adicionar ao Carrinho</button>
+
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart"></ul>
+        <p id="total"></p>
+
+        <button class="back" onclick="window.location.href='index.html'">
+            Voltar
+        </button>
+    </div>
+
+</body>
+
+</html>

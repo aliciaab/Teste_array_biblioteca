@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/index.css" />
+    <script src="./../../controller/index.js"></script>
+    <title>Biblioteca de Livros</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Biblioteca de Livros</h1>
+        <input type="text" id="title" placeholder="Título do Livro" />
+        <input type="text" id="author" placeholder="Autor do Livro" />
+        <button onclick="addBook()">Adicionar Livro</button>
+
+        <h2>Lista de Livros</h2>
+        <ul id="bookList"></ul>
+        <p id="bookCount"></p>
+
+        <button class="back" onclick="window.location.href='index.html'">
+            Voltar
+        </button>
+    </div>
+
+</body>
+
+</html>
